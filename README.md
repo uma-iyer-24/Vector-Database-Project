@@ -165,17 +165,3 @@ iface.launch()
 #### 4)  Finds the text most similar to the prompt using similarity search.
 #### 5)  Displays the embeddings and the closest text in a user-friendly GUI built with Gradio.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
