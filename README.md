@@ -151,8 +151,19 @@ iface = gr.Interface(
 #### •  Title and Description: Provides context for the GUI.
 
 
+## Launch the Interface
+```python
+iface.launch()
+```
+#### •  Launches the Gradio interface, making it accessible to the user in a browser or notebook.
 
 
+## Summary:
+#### 1)  Takes input texts and a query prompt.
+#### 2)  Converts the texts and prompt into dense embeddings using SentenceTransformer.
+#### 3)  Creates a FAISS index to store and search among embeddings.
+#### 4)  Finds the text most similar to the prompt using similarity search.
+#### 5)  Displays the embeddings and the closest text in a user-friendly GUI built with Gradio.
 
 
 
