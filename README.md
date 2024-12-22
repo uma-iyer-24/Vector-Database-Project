@@ -158,7 +158,7 @@ iface.launch()
 #### •  Launches the Gradio interface, making it accessible to the user in a browser or notebook.
 
 
-## Summary:
+## Summary
 #### 1)  Takes input texts and a query prompt.
 #### 2)  Converts the texts and prompt into dense embeddings using SentenceTransformer.
 #### 3)  Creates a FAISS index to store and search among embeddings.
